@@ -61,6 +61,7 @@ public class Solution3 {
         System.out.println("Test auto merge");
         System.out.println("Test auto merge");
         System.out.println("Test auto merge");
+        System.out.println("Test auto merge");
         // 第 2 步：倒推获得最大子集
         List<Integer> res = new ArrayList<Integer>();
         if (maxSize == 1) {
