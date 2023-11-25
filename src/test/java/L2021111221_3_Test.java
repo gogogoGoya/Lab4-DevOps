@@ -31,7 +31,7 @@ public class L2021111221_3_Test {
         int[] nums = {2, 5, 7, 11, 19};
         Solution3 solution = new Solution3();
         List<Integer> result = solution.largestDivisibleSubset(nums);
-        assertArrayEquals(new int[]{2,5,7}, result.stream().mapToInt(Integer::intValue).toArray());
+        assertArrayEquals(new int[]{2}, result.stream().mapToInt(Integer::intValue).toArray());
     }
 
     @Test
